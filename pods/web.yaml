@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: web
+    app: test-v2
+  name: web
+spec:
+  containers:
+  - image: httpd
+    name: web
