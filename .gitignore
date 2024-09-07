@@ -1,2 +1,4 @@
 # haven't added files for .gitignore yet
 
+# remove directory tree file
+tree_output*
