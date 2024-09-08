@@ -9,13 +9,23 @@ This is my learning and lab repo for Kubernetes, Helm, and other k8s software an
 |-- deploy
 |   |-- deploy-services-recreate.yaml
 |   |-- deploy-services.yaml
-|   `-- deploy-single.yaml
+|   |-- deploy-single.yaml
+|   `-- frontend.yaml
 |-- namespaces
 |   `-- ns.yaml
-`-- pods
-    |-- db.yaml
-    |-- nginx.yaml
-    `-- web.yaml
+|-- pods
+|   |-- db.yaml
+|   |-- nginx.yaml
+|   `-- web.yaml
+`-- projects
+    `-- mealie
+        |-- deploy-latest
+        |   |-- frontend-ns.yaml
+        |   |-- frontend-svc.yaml
+        |   `-- frontend.yaml
+        `-- deploy-old
+            |-- frontend-ns.yaml
+            `-- frontend.yaml
 
-3 directories, 7 files
+7 directories, 13 files
 ```
