@@ -17,15 +17,18 @@ This is my learning and lab repo for Kubernetes, Helm, and other k8s software an
 |   |-- db.yaml
 |   |-- nginx.yaml
 |   `-- web.yaml
-`-- projects
-    `-- mealie
-        |-- deploy-latest
-        |   |-- frontend-ns.yaml
-        |   |-- frontend-svc.yaml
-        |   `-- frontend.yaml
-        `-- deploy-old
-            |-- frontend-ns.yaml
-            `-- frontend.yaml
+|-- projects
+|   `-- mealie
+|       |-- deploy-latest
+|       |   |-- frontend-ns.yaml
+|       |   |-- frontend-pvc.yaml
+|       |   |-- frontend-svc.yaml
+|       |   `-- frontend.yaml
+|       `-- deploy-old
+|           |-- frontend-ns.yaml
+|           `-- frontend.yaml
+`-- volumes
+    `-- nginx.yaml
 
-7 directories, 13 files
+8 directories, 15 files
 ```
